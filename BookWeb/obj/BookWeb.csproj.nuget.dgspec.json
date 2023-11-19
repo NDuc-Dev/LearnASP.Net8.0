@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ditvu\\Desktop\\ASP.NetCoreMVC\\BookWeb\\BookWeb.csproj": {}
+    "C:\\Users\\ditvu\\Desktop\\ASP.NetCoreMVC\\bookweb\\BookWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ditvu\\Desktop\\ASP.NetCoreMVC\\BookWeb\\BookWeb.csproj": {
+    "C:\\Users\\ditvu\\Desktop\\ASP.NetCoreMVC\\bookweb\\BookWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ditvu\\Desktop\\ASP.NetCoreMVC\\BookWeb\\BookWeb.csproj",
+        "projectUniqueName": "C:\\Users\\ditvu\\Desktop\\ASP.NetCoreMVC\\bookweb\\BookWeb.csproj",
         "projectName": "BookWeb",
-        "projectPath": "C:\\Users\\ditvu\\Desktop\\ASP.NetCoreMVC\\BookWeb\\BookWeb.csproj",
+        "projectPath": "C:\\Users\\ditvu\\Desktop\\ASP.NetCoreMVC\\bookweb\\BookWeb.csproj",
         "packagesPath": "C:\\Users\\ditvu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ditvu\\Desktop\\ASP.NetCoreMVC\\BookWeb\\obj\\",
+        "outputPath": "C:\\Users\\ditvu\\Desktop\\ASP.NetCoreMVC\\bookweb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ditvu\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,32 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
