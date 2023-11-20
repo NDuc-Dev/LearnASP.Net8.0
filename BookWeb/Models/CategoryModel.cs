@@ -9,7 +9,7 @@ namespace BookWeb.Models{
         [MaxLength(30)]
         [DisplayName("Category Name")]
         public string Name { get; set; }
-        [Range(1,100, ErrorMessage ="The field Display Order must be between 1-100")]
+        [Range(1,100, ErrorMessage ="The field Display Order must be between 1-101")]
         [DisplayName("Display Order")]
         public int DisplayOrder { get; set; }
     }
