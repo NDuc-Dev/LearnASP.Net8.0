@@ -251,3 +251,9 @@ C:\Users\ditvu\Desktop\ASP.NetCoreMVC\bookweb\bin\Debug\net8.0\runtimes\win\lib\
 C:\Users\ditvu\Desktop\ASP.NetCoreMVC\bookweb\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 C:\Users\ditvu\Desktop\ASP.NetCoreMVC\bookweb\obj\Debug\net8.0\BookWeb.csproj.AssemblyReference.cache
 C:\Users\ditvu\Desktop\ASP.NetCoreMVC\bookweb\obj\Debug\net8.0\BookWeb.csproj.CopyComplete
+C:\Users\ditvu\Desktop\ASP.NetCoreMVC\bookweb\bin\Debug\net8.0\Book.DataAccess.dll
+C:\Users\ditvu\Desktop\ASP.NetCoreMVC\bookweb\bin\Debug\net8.0\Book.Models.dll
+C:\Users\ditvu\Desktop\ASP.NetCoreMVC\bookweb\bin\Debug\net8.0\Book.Ultility.dll
+C:\Users\ditvu\Desktop\ASP.NetCoreMVC\bookweb\bin\Debug\net8.0\Book.DataAccess.pdb
+C:\Users\ditvu\Desktop\ASP.NetCoreMVC\bookweb\bin\Debug\net8.0\Book.Models.pdb
+C:\Users\ditvu\Desktop\ASP.NetCoreMVC\bookweb\bin\Debug\net8.0\Book.Ultility.pdb

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ditvu\\Desktop\\ASP.NetCoreMVC\\bookweb\\BookWeb.csproj": {}
+    "C:\\Users\\ditvu\\Desktop\\ASP.NetCoreMVC\\BookWeb\\BookWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ditvu\\Desktop\\ASP.NetCoreMVC\\bookweb\\BookWeb.csproj": {
+    "C:\\Users\\ditvu\\Desktop\\ASP.NetCoreMVC\\Book.DataAccess\\Book.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ditvu\\Desktop\\ASP.NetCoreMVC\\bookweb\\BookWeb.csproj",
-        "projectName": "BookWeb",
-        "projectPath": "C:\\Users\\ditvu\\Desktop\\ASP.NetCoreMVC\\bookweb\\BookWeb.csproj",
+        "projectUniqueName": "C:\\Users\\ditvu\\Desktop\\ASP.NetCoreMVC\\Book.DataAccess\\Book.DataAccess.csproj",
+        "projectName": "Book.DataAccess",
+        "projectPath": "C:\\Users\\ditvu\\Desktop\\ASP.NetCoreMVC\\Book.DataAccess\\Book.DataAccess.csproj",
         "packagesPath": "C:\\Users\\ditvu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ditvu\\Desktop\\ASP.NetCoreMVC\\bookweb\\obj\\",
+        "outputPath": "C:\\Users\\ditvu\\Desktop\\ASP.NetCoreMVC\\Book.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ditvu\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,6 +26,175 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ditvu\\Desktop\\ASP.NetCoreMVC\\Book.Models\\Book.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ditvu\\Desktop\\ASP.NetCoreMVC\\Book.Models\\Book.Models.csproj",
+        "projectName": "Book.Models",
+        "projectPath": "C:\\Users\\ditvu\\Desktop\\ASP.NetCoreMVC\\Book.Models\\Book.Models.csproj",
+        "packagesPath": "C:\\Users\\ditvu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ditvu\\Desktop\\ASP.NetCoreMVC\\Book.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ditvu\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ditvu\\Desktop\\ASP.NetCoreMVC\\Book.Ultility\\Book.Ultility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ditvu\\Desktop\\ASP.NetCoreMVC\\Book.Ultility\\Book.Ultility.csproj",
+        "projectName": "Book.Ultility",
+        "projectPath": "C:\\Users\\ditvu\\Desktop\\ASP.NetCoreMVC\\Book.Ultility\\Book.Ultility.csproj",
+        "packagesPath": "C:\\Users\\ditvu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ditvu\\Desktop\\ASP.NetCoreMVC\\Book.Ultility\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ditvu\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ditvu\\Desktop\\ASP.NetCoreMVC\\BookWeb\\BookWeb.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ditvu\\Desktop\\ASP.NetCoreMVC\\BookWeb\\BookWeb.csproj",
+        "projectName": "BookWeb",
+        "projectPath": "C:\\Users\\ditvu\\Desktop\\ASP.NetCoreMVC\\BookWeb\\BookWeb.csproj",
+        "packagesPath": "C:\\Users\\ditvu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ditvu\\Desktop\\ASP.NetCoreMVC\\BookWeb\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ditvu\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ditvu\\Desktop\\ASP.NetCoreMVC\\Book.DataAccess\\Book.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\ditvu\\Desktop\\ASP.NetCoreMVC\\Book.DataAccess\\Book.DataAccess.csproj"
+              },
+              "C:\\Users\\ditvu\\Desktop\\ASP.NetCoreMVC\\Book.Models\\Book.Models.csproj": {
+                "projectPath": "C:\\Users\\ditvu\\Desktop\\ASP.NetCoreMVC\\Book.Models\\Book.Models.csproj"
+              },
+              "C:\\Users\\ditvu\\Desktop\\ASP.NetCoreMVC\\Book.Ultility\\Book.Ultility.csproj": {
+                "projectPath": "C:\\Users\\ditvu\\Desktop\\ASP.NetCoreMVC\\Book.Ultility\\Book.Ultility.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
