@@ -2732,36 +2732,6 @@
             "rid": "win"
           }
         }
-      },
-      "Book.DataAccess/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/Book.DataAccess.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Book.DataAccess.dll": {}
-        }
-      },
-      "Book.Models/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/Book.Models.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Book.Models.dll": {}
-        }
-      },
-      "Book.Ultility/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/Book.Ultility.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Book.Ultility.dll": {}
-        }
       }
     }
   },
@@ -7717,28 +7687,10 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
-    },
-    "Book.DataAccess/1.0.0": {
-      "type": "project",
-      "path": "../Book.DataAccess/Book.DataAccess.csproj",
-      "msbuildProject": "../Book.DataAccess/Book.DataAccess.csproj"
-    },
-    "Book.Models/1.0.0": {
-      "type": "project",
-      "path": "../Book.Models/Book.Models.csproj",
-      "msbuildProject": "../Book.Models/Book.Models.csproj"
-    },
-    "Book.Ultility/1.0.0": {
-      "type": "project",
-      "path": "../Book.Ultility/Book.Ultility.csproj",
-      "msbuildProject": "../Book.Ultility/Book.Ultility.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Book.DataAccess >= 1.0.0",
-      "Book.Models >= 1.0.0",
-      "Book.Ultility >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 8.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.0",
@@ -7752,35 +7704,27 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ditvu\\Desktop\\ASP.NetCoreMVC\\BookWeb\\BookWeb.csproj",
+      "projectUniqueName": "C:\\Users\\ditvu\\Desktop\\LearnASP.Net8.0\\BookWeb\\BookWeb.csproj",
       "projectName": "BookWeb",
-      "projectPath": "C:\\Users\\ditvu\\Desktop\\ASP.NetCoreMVC\\BookWeb\\BookWeb.csproj",
+      "projectPath": "C:\\Users\\ditvu\\Desktop\\LearnASP.Net8.0\\BookWeb\\BookWeb.csproj",
       "packagesPath": "C:\\Users\\ditvu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ditvu\\Desktop\\ASP.NetCoreMVC\\BookWeb\\obj\\",
+      "outputPath": "C:\\Users\\ditvu\\Desktop\\LearnASP.Net8.0\\BookWeb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ditvu\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\ditvu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {
-            "C:\\Users\\ditvu\\Desktop\\ASP.NetCoreMVC\\Book.DataAccess\\Book.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\ditvu\\Desktop\\ASP.NetCoreMVC\\Book.DataAccess\\Book.DataAccess.csproj"
-            },
-            "C:\\Users\\ditvu\\Desktop\\ASP.NetCoreMVC\\Book.Models\\Book.Models.csproj": {
-              "projectPath": "C:\\Users\\ditvu\\Desktop\\ASP.NetCoreMVC\\Book.Models\\Book.Models.csproj"
-            },
-            "C:\\Users\\ditvu\\Desktop\\ASP.NetCoreMVC\\Book.Ultility\\Book.Ultility.csproj": {
-              "projectPath": "C:\\Users\\ditvu\\Desktop\\ASP.NetCoreMVC\\Book.Ultility\\Book.Ultility.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
