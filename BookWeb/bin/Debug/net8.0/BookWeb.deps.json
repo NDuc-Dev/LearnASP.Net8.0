@@ -9,8 +9,6 @@
       "BookWeb/1.0.0": {
         "dependencies": {
           "Book.DataAccess": "1.0.0",
-          "Book.Models": "1.0.0",
-          "Book.Ultility": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.0",
           "Microsoft.EntityFrameworkCore.Design": "8.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0",
@@ -1864,6 +1862,12 @@
         }
       },
       "Book.DataAccess/1.0.0": {
+        "dependencies": {
+          "Book.Models": "1.0.0",
+          "Book.Ultility": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "8.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0"
+        },
         "runtime": {
           "Book.DataAccess.dll": {}
         }

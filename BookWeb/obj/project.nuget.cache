@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UNB4PbeuA7ov+CNzli6XxyRCxK+LJ4OW05WrCLmnwNfLSeC2K43MOfQac170C7JoHqqzH3HrgsVqoB/O/CYY+A==",
+  "dgSpecHash": "MVSKg126dZFTpcaNXDZ8ylAagDkb101IJbL0MlAQq8s+i2bs+WJgm8V7GzZG2bc0QMZeFceIkIgPB9MO/kqw1g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ditvu\\Desktop\\LearnASP.Net8.0\\BookWeb\\BookWeb.csproj",
+  "projectFilePath": "C:\\Users\\ditvu\\source\\repos\\LearnASP.Net8.0\\BookWeb\\BookWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ditvu\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\ditvu\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

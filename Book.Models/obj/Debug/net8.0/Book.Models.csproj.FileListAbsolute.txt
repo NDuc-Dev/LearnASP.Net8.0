@@ -1,0 +1,12 @@
+C:\Users\ditvu\source\repos\LearnASP.Net8.0\Book.Models\bin\Debug\net8.0\Book.Models.deps.json
+C:\Users\ditvu\source\repos\LearnASP.Net8.0\Book.Models\bin\Debug\net8.0\Book.Models.dll
+C:\Users\ditvu\source\repos\LearnASP.Net8.0\Book.Models\bin\Debug\net8.0\Book.Models.pdb
+C:\Users\ditvu\source\repos\LearnASP.Net8.0\Book.Models\obj\Debug\net8.0\Book.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ditvu\source\repos\LearnASP.Net8.0\Book.Models\obj\Debug\net8.0\Book.Models.AssemblyInfoInputs.cache
+C:\Users\ditvu\source\repos\LearnASP.Net8.0\Book.Models\obj\Debug\net8.0\Book.Models.AssemblyInfo.cs
+C:\Users\ditvu\source\repos\LearnASP.Net8.0\Book.Models\obj\Debug\net8.0\Book.Models.csproj.CoreCompileInputs.cache
+C:\Users\ditvu\source\repos\LearnASP.Net8.0\Book.Models\obj\Debug\net8.0\Book.Models.sourcelink.json
+C:\Users\ditvu\source\repos\LearnASP.Net8.0\Book.Models\obj\Debug\net8.0\Book.Models.dll
+C:\Users\ditvu\source\repos\LearnASP.Net8.0\Book.Models\obj\Debug\net8.0\refint\Book.Models.dll
+C:\Users\ditvu\source\repos\LearnASP.Net8.0\Book.Models\obj\Debug\net8.0\Book.Models.pdb
+C:\Users\ditvu\source\repos\LearnASP.Net8.0\Book.Models\obj\Debug\net8.0\ref\Book.Models.dll
