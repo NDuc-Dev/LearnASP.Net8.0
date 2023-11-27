@@ -7756,11 +7756,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ditvu\\source\\repos\\LearnASP.Net8.0\\BookWeb\\BookWeb.csproj",
+      "projectUniqueName": "C:\\Users\\ditvu\\source\\Repos\\LearnASP.Net8.0\\BookWeb\\BookWeb.csproj",
       "projectName": "BookWeb",
-      "projectPath": "C:\\Users\\ditvu\\source\\repos\\LearnASP.Net8.0\\BookWeb\\BookWeb.csproj",
+      "projectPath": "C:\\Users\\ditvu\\source\\Repos\\LearnASP.Net8.0\\BookWeb\\BookWeb.csproj",
       "packagesPath": "C:\\Users\\ditvu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ditvu\\source\\repos\\LearnASP.Net8.0\\BookWeb\\obj\\",
+      "outputPath": "C:\\Users\\ditvu\\source\\Repos\\LearnASP.Net8.0\\BookWeb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ditvu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7777,8 +7777,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\ditvu\\source\\repos\\LearnASP.Net8.0\\Book.DataAccess\\Book.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\ditvu\\source\\repos\\LearnASP.Net8.0\\Book.DataAccess\\Book.DataAccess.csproj"
+            "C:\\Users\\ditvu\\source\\Repos\\LearnASP.Net8.0\\Book.DataAccess\\Book.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\ditvu\\source\\Repos\\LearnASP.Net8.0\\Book.DataAccess\\Book.DataAccess.csproj"
             }
           }
         }

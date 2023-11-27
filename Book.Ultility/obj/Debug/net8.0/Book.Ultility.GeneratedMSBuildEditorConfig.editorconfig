@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Book.Ultility
-build_property.ProjectDir = C:\Users\ditvu\source\repos\LearnASP.Net8.0\Book.Ultility\
+build_property.ProjectDir = C:\Users\ditvu\source\Repos\LearnASP.Net8.0\Book.Ultility\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
