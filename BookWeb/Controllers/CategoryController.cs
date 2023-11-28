@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Book.DataAccess.Data;
+using Book.DataAccess.Reponsitory.IReponsitory;
 using Book.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -13,17 +14,17 @@ namespace BookWeb.Controllers
 {
     public class CategoryController : Controller
     {
-        private readonly ApplicationDbContext _context;
+        private readonly ICategoryReponsitory _categoryRepo;
 
-        public CategoryController(ApplicationDbContext context)
+        public CategoryController(ICategoryReponsitory db)
         {
-            _context = context;
+            _categoryRepo = db;
         }
 
         // GET: Category
         public IActionResult Index()
         {
-            var objCategorylist = _context.Categories.ToList();
+            var objCategorylist = _categoryRepo.GetAll().ToList();
             return View(objCategorylist);
         }
 
@@ -40,8 +41,8 @@ namespace BookWeb.Controllers
             }
             if (ModelState.IsValid)
             {
-                _context.Categories.Add(obj);
-                _context.SaveChanges();
+                _categoryRepo.Add(obj);
+                _categoryRepo.Save();
                 TempData["success"] = "Category create successfully";
                 return RedirectToAction("Index", "Category");
             }
@@ -54,9 +55,9 @@ namespace BookWeb.Controllers
             {
                 return NotFound();
             }
-            Category? categoryFromDb = _context.Categories.Find(id);
-            // Category? categoryFromDb1 = _context.Categories.FirstOrDefault(u=>u.Id == id);
-            // Category? categoryFromDb2 = _context.Categories.Where(u=>u.Id==id).FirstOrDefault();
+            Category? categoryFromDb = _categoryRepo.Get(u=>u.Id==id);
+            // Category? categoryFromDb1 = _categoryRepo.Categories.FirstOrDefault(u=>u.Id == id);
+            // Category? categoryFromDb2 = _categoryRepo.Categories.Where(u=>u.Id==id).FirstOrDefault();
             if (categoryFromDb == null)
             {
                 return NotFound();
@@ -68,8 +69,8 @@ namespace BookWeb.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Categories.Update(obj);
-                _context.SaveChanges();
+                _categoryRepo.Update(obj);
+                _categoryRepo.Save();
                 TempData["success"] = "Category update successfully";
                 return RedirectToAction("Index", "Category");
             }
@@ -82,9 +83,9 @@ namespace BookWeb.Controllers
             {
                 return NotFound();
             }
-            Category? categoryFromDb = _context.Categories.Find(id);
-            // Category? categoryFromDb1 = _context.Categories.FirstOrDefault(u=>u.Id == id);
-            // Category? categoryFromDb2 = _context.Categories.Where(u=>u.Id==id).FirstOrDefault();
+            Category? categoryFromDb = _categoryRepo.Get(u=>u.Id==id);
+            // Category? categoryFromDb1 = _categoryRepo.Categories.FirstOrDefault(u=>u.Id == id);
+            // Category? categoryFromDb2 = _categoryRepo.Categories.Where(u=>u.Id==id).FirstOrDefault();
             if (categoryFromDb == null)
             {
                 return NotFound();
@@ -95,13 +96,13 @@ namespace BookWeb.Controllers
         // không thể sử dụng chung tên và biến giống nhau cho hai thuộc tính GET và POST, vì vậy thay đổi tên của thuộc tính POST và chỉ định rằng Action name là tên của thuộc tính cần có như vậy sẽ không ảnh hưởng đến code
         public IActionResult DeletePOST(int? id)
         {
-            Category obj = _context.Categories.Find(id);
+            Category obj = _categoryRepo.Get(u=>u.Id==id);
             if (obj == null)
             {
                 return NotFound();
             }
-            _context.Categories.Remove(obj);
-            _context.SaveChanges();
+            _categoryRepo.Remove(obj);
+            _categoryRepo.Save();
             TempData["success"] = "Category deleted successfully";
             return RedirectToAction("Index", "Category");
         }
