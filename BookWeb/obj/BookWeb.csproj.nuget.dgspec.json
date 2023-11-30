@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ditvu\\source\\Repos\\LearnASP.Net8.0\\BookWeb\\BookWeb.csproj": {}
+    "C:\\Users\\ditvu\\source\\Repos\\LearnASP.Net8.0\\bookweb\\BookWeb.csproj": {}
   },
   "projects": {
     "C:\\Users\\ditvu\\source\\Repos\\LearnASP.Net8.0\\Book.DataAccess\\Book.DataAccess.csproj": {
@@ -192,14 +192,14 @@
         }
       }
     },
-    "C:\\Users\\ditvu\\source\\Repos\\LearnASP.Net8.0\\BookWeb\\BookWeb.csproj": {
+    "C:\\Users\\ditvu\\source\\Repos\\LearnASP.Net8.0\\bookweb\\BookWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ditvu\\source\\Repos\\LearnASP.Net8.0\\BookWeb\\BookWeb.csproj",
+        "projectUniqueName": "C:\\Users\\ditvu\\source\\Repos\\LearnASP.Net8.0\\bookweb\\BookWeb.csproj",
         "projectName": "BookWeb",
-        "projectPath": "C:\\Users\\ditvu\\source\\Repos\\LearnASP.Net8.0\\BookWeb\\BookWeb.csproj",
+        "projectPath": "C:\\Users\\ditvu\\source\\Repos\\LearnASP.Net8.0\\bookweb\\BookWeb.csproj",
         "packagesPath": "C:\\Users\\ditvu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ditvu\\source\\Repos\\LearnASP.Net8.0\\BookWeb\\obj\\",
+        "outputPath": "C:\\Users\\ditvu\\source\\Repos\\LearnASP.Net8.0\\bookweb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ditvu\\AppData\\Roaming\\NuGet\\NuGet.Config",
