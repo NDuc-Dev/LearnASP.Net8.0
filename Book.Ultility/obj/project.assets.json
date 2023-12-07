@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ditvu\\source\\repos\\LearnASP.Net8.0\\Book.Ultility\\Book.Ultility.csproj",
+      "projectUniqueName": "C:\\Users\\ditvu\\Desktop\\LearnASP.Net8.0\\Book.Ultility\\Book.Ultility.csproj",
       "projectName": "Book.Ultility",
-      "projectPath": "C:\\Users\\ditvu\\source\\repos\\LearnASP.Net8.0\\Book.Ultility\\Book.Ultility.csproj",
+      "projectPath": "C:\\Users\\ditvu\\Desktop\\LearnASP.Net8.0\\Book.Ultility\\Book.Ultility.csproj",
       "packagesPath": "C:\\Users\\ditvu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ditvu\\source\\repos\\LearnASP.Net8.0\\Book.Ultility\\obj\\",
+      "outputPath": "C:\\Users\\ditvu\\Desktop\\LearnASP.Net8.0\\Book.Ultility\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ditvu\\AppData\\Roaming\\NuGet\\NuGet.Config",

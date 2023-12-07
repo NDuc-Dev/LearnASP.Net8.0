@@ -10,3 +10,15 @@ C:\Users\ditvu\source\repos\LearnASP.Net8.0\Book.Ultility\obj\Debug\net8.0\Book.
 C:\Users\ditvu\source\repos\LearnASP.Net8.0\Book.Ultility\obj\Debug\net8.0\refint\Book.Ultility.dll
 C:\Users\ditvu\source\repos\LearnASP.Net8.0\Book.Ultility\obj\Debug\net8.0\Book.Ultility.pdb
 C:\Users\ditvu\source\repos\LearnASP.Net8.0\Book.Ultility\obj\Debug\net8.0\ref\Book.Ultility.dll
+C:\Users\ditvu\Desktop\LearnASP.Net8.0\Book.Ultility\bin\Debug\net8.0\Book.Ultility.deps.json
+C:\Users\ditvu\Desktop\LearnASP.Net8.0\Book.Ultility\bin\Debug\net8.0\Book.Ultility.dll
+C:\Users\ditvu\Desktop\LearnASP.Net8.0\Book.Ultility\bin\Debug\net8.0\Book.Ultility.pdb
+C:\Users\ditvu\Desktop\LearnASP.Net8.0\Book.Ultility\obj\Debug\net8.0\Book.Ultility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ditvu\Desktop\LearnASP.Net8.0\Book.Ultility\obj\Debug\net8.0\Book.Ultility.AssemblyInfoInputs.cache
+C:\Users\ditvu\Desktop\LearnASP.Net8.0\Book.Ultility\obj\Debug\net8.0\Book.Ultility.AssemblyInfo.cs
+C:\Users\ditvu\Desktop\LearnASP.Net8.0\Book.Ultility\obj\Debug\net8.0\Book.Ultility.csproj.CoreCompileInputs.cache
+C:\Users\ditvu\Desktop\LearnASP.Net8.0\Book.Ultility\obj\Debug\net8.0\Book.Ultility.sourcelink.json
+C:\Users\ditvu\Desktop\LearnASP.Net8.0\Book.Ultility\obj\Debug\net8.0\Book.Ultility.dll
+C:\Users\ditvu\Desktop\LearnASP.Net8.0\Book.Ultility\obj\Debug\net8.0\refint\Book.Ultility.dll
+C:\Users\ditvu\Desktop\LearnASP.Net8.0\Book.Ultility\obj\Debug\net8.0\Book.Ultility.pdb
+C:\Users\ditvu\Desktop\LearnASP.Net8.0\Book.Ultility\obj\Debug\net8.0\ref\Book.Ultility.dll

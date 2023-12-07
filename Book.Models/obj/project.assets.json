@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ditvu\\source\\repos\\LearnASP.Net8.0\\Book.Models\\Book.Models.csproj",
+      "projectUniqueName": "C:\\Users\\ditvu\\Desktop\\LearnASP.Net8.0\\Book.Models\\Book.Models.csproj",
       "projectName": "Book.Models",
-      "projectPath": "C:\\Users\\ditvu\\source\\repos\\LearnASP.Net8.0\\Book.Models\\Book.Models.csproj",
+      "projectPath": "C:\\Users\\ditvu\\Desktop\\LearnASP.Net8.0\\Book.Models\\Book.Models.csproj",
       "packagesPath": "C:\\Users\\ditvu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ditvu\\source\\repos\\LearnASP.Net8.0\\Book.Models\\obj\\",
+      "outputPath": "C:\\Users\\ditvu\\Desktop\\LearnASP.Net8.0\\Book.Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ditvu\\AppData\\Roaming\\NuGet\\NuGet.Config",

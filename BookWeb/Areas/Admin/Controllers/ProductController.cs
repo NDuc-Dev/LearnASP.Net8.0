@@ -13,20 +13,20 @@ using Microsoft.EntityFrameworkCore.Metadata.Internal;
 namespace BookWeb.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    public class ProductController : Controller
+    public class CategoryController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
 
-        public ProductController(IUnitOfWork unitOfWork)
+        public CategoryController(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
         }
 
-        // GET: Product
+        // GET: Category
         public IActionResult Index()
         {
-            var objProductlist = _unitOfWork.Product.GetAll().ToList();
-            return View(objProductlist);
+            var objCategorylist = _unitOfWork.Category.GetAll().ToList();
+            return View(objCategorylist);
         }
 
         public IActionResult Create()
@@ -34,14 +34,18 @@ namespace BookWeb.Areas.Admin.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult Create(Product obj)
+        public IActionResult Create(Category obj)
         {
+            if (obj.Name == obj.DisplayOrder.ToString())
+            {
+                ModelState.AddModelError("name", "The Display Order cannot exactly match the Name");
+            }
             if (ModelState.IsValid)
             {
-                _unitOfWork.Product.Add(obj);
+                _unitOfWork.Category.Add(obj);
                 _unitOfWork.Save();
-                TempData["success"] = "Product create successfully";
-                return RedirectToAction("Index", "Product");
+                TempData["success"] = "Category create successfully";
+                return RedirectToAction("Index", "Category");
             }
             return View();
         }
@@ -52,24 +56,24 @@ namespace BookWeb.Areas.Admin.Controllers
             {
                 return NotFound();
             }
-            Product? ProductFromDb = _unitOfWork.Product.Get(u=>u.Id==id);
-            // Product? ProductFromDb1 = _unitOfWork.Categories.FirstOrDefault(u=>u.Id == id);
-            // Product? ProductFromDb2 = _unitOfWork.Categories.Where(u=>u.Id==id).FirstOrDefault();
-            if (ProductFromDb == null)
+            Category? categoryFromDb = _unitOfWork.Category.Get(u=>u.Id==id);
+            // Category? categoryFromDb1 = _unitOfWork.Categories.FirstOrDefault(u=>u.Id == id);
+            // Category? categoryFromDb2 = _unitOfWork.Categories.Where(u=>u.Id==id).FirstOrDefault();
+            if (categoryFromDb == null)
             {
                 return NotFound();
             }
-            return View(ProductFromDb);
+            return View(categoryFromDb);
         }
         [HttpPost]
-        public IActionResult Edit(Product obj)
+        public IActionResult Edit(Category obj)
         {
             if (ModelState.IsValid)
             {
-                _unitOfWork.Product.Update(obj);
+                _unitOfWork.Category.Update(obj);
                 _unitOfWork.Save();
-                TempData["success"] = "Product update successfully";
-                return RedirectToAction("Index", "Product");
+                TempData["success"] = "Category update successfully";
+                return RedirectToAction("Index", "Category");
             }
             return View();
         }
@@ -80,28 +84,28 @@ namespace BookWeb.Areas.Admin.Controllers
             {
                 return NotFound();
             }
-            Product? productFromDb = _unitOfWork.Product.Get(u=>u.Id==id);
-            // Product? ProductFromDb1 = _unitOfWork.Categories.FirstOrDefault(u=>u.Id == id);
-            // Product? ProductFromDb2 = _unitOfWork.Categories.Where(u=>u.Id==id).FirstOrDefault();
-            if (productFromDb == null)
+            Category? categoryFromDb = _unitOfWork.Category.Get(u=>u.Id==id);
+            // Category? categoryFromDb1 = _unitOfWork.Categories.FirstOrDefault(u=>u.Id == id);
+            // Category? categoryFromDb2 = _unitOfWork.Categories.Where(u=>u.Id==id).FirstOrDefault();
+            if (categoryFromDb == null)
             {
                 return NotFound();
             }
-            return View(productFromDb);
+            return View(categoryFromDb);
         }
         [HttpPost, ActionName("Delete")]
         // không thể sử dụng chung tên và biến giống nhau cho hai thuộc tính GET và POST, vì vậy thay đổi tên của thuộc tính POST và chỉ định rằng Action name là tên của thuộc tính cần có như vậy sẽ không ảnh hưởng đến code
         public IActionResult DeletePOST(int? id)
         {
-            Product obj = _unitOfWork.Product.Get(u=>u.Id==id);
+            Category obj = _unitOfWork.Category.Get(u=>u.Id==id);
             if (obj == null)
             {
                 return NotFound();
             }
-            _unitOfWork.Product.Remove(obj);
+            _unitOfWork.Category.Remove(obj);
             _unitOfWork.Save();
-            TempData["success"] = "Product deleted successfully";
-            return RedirectToAction("Index", "Product");
+            TempData["success"] = "Category deleted successfully";
+            return RedirectToAction("Index", "Category");
         }
     }
 }
