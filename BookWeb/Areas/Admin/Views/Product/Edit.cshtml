@@ -1,7 +1,7 @@
 @model Product
 
 
-<div class="card shadow border-0 mt-4">
+<div class="card shadow border-0 my-4">
     <div class="card-header bg-secondary bg-gradient ml-0 py-3">
         <div class="row">
             <div class="col-12 text-center">
@@ -19,7 +19,7 @@
                     <span asp-validation-for="Title" class="text-danger"></span>
                 </div>
                 <div class="form-floating py-2 col-12">
-                    <input asp-for="Description" class="form-control border-0 shadow">
+                    <textarea asp-for="Description" class="form-control border-0 shadow"></textarea>
                     <label asp-for="Description" class="ms-2"></label>
                     <span asp-validation-for="Description" class="text-danger"></span>
                 </div>
@@ -58,7 +58,8 @@
                         <button type="submit" class="btn btn-primary form-control">Update</button>
                     </div>
                     <div class="col-6 col-md-3">
-                        <a asp-controller="Product" asp-action="Index" class="btn btn-outline-primary border form-control">Back To List</a>
+                        <a asp-controller="Product" asp-action="Index"
+                            class="btn btn-outline-primary border form-control">Back To List</a>
                     </div>
                 </div>
             </div>
@@ -69,6 +70,6 @@
 @section Scripts
 {
     @{
-        <partial Title="_ValidationScriptsPartial"/>
+        <partial Title="_ValidationScriptsPartial" />
     }
 }
