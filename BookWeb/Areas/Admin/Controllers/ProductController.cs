@@ -26,7 +26,7 @@ namespace BookWeb.Areas.Admin.Controllers
         // GET: Product
         public IActionResult Index()
         {
-           
+
             var objProductlist = _unitOfWork.Product.GetAll().ToList();
             return View(objProductlist);
         }
@@ -34,27 +34,36 @@ namespace BookWeb.Areas.Admin.Controllers
         public IActionResult Create()
         {
             // ViewBag.CategoryList = CategoryList;
-            ProductVM productVM = new() {
-                CategoryList = _unitOfWork.Category.GetAll().Select(u => new SelectListItem
+            ProductVM productVM = new()
             {
-                Text = u.Name,
-                Value = u.Id.ToString()
-            }),
+                CategoryList = _unitOfWork.Category.GetAll().Select(u => new SelectListItem
+                {
+                    Text = u.Name,
+                    Value = u.Id.ToString()
+                }),
                 Product = new Product()
             };
             return View(productVM);
         }
         [HttpPost]
-        public IActionResult Create(ProductVM obj)
+        public IActionResult Create(ProductVM productVM)
         {
             if (ModelState.IsValid)
             {
-                _unitOfWork.Product.Add(obj.Product);
+                _unitOfWork.Product.Add(productVM.Product);
                 _unitOfWork.Save();
                 TempData["success"] = "Product create successfully";
                 return RedirectToAction("Index");
             }
-            return View();
+            else
+            {
+                productVM.CategoryList = _unitOfWork.Category.GetAll().Select(u => new SelectListItem
+                {
+                    Text = u.Name,
+                    Value = u.Id.ToString()
+                });
+                return View(productVM);
+            }
         }
 
         public IActionResult Edit(int? id)

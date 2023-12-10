@@ -38,3 +38,23 @@ C:\Users\ditvu\Desktop\LearnASP.Net8.0\Book.DataAccess\obj\Debug\net8.0\refint\B
 C:\Users\ditvu\Desktop\LearnASP.Net8.0\Book.DataAccess\obj\Debug\net8.0\Book.DataAccess.pdb
 C:\Users\ditvu\Desktop\LearnASP.Net8.0\Book.DataAccess\obj\Debug\net8.0\Book.DataAccess.genruntimeconfig.cache
 C:\Users\ditvu\Desktop\LearnASP.Net8.0\Book.DataAccess\obj\Debug\net8.0\ref\Book.DataAccess.dll
+C:\Users\ditvu\Desktop\New folder\LearnASP.Net8.0\Book.DataAccess\bin\Debug\net8.0\Book.DataAccess.deps.json
+C:\Users\ditvu\Desktop\New folder\LearnASP.Net8.0\Book.DataAccess\bin\Debug\net8.0\Book.DataAccess.runtimeconfig.json
+C:\Users\ditvu\Desktop\New folder\LearnASP.Net8.0\Book.DataAccess\bin\Debug\net8.0\Book.DataAccess.dll
+C:\Users\ditvu\Desktop\New folder\LearnASP.Net8.0\Book.DataAccess\bin\Debug\net8.0\Book.DataAccess.pdb
+C:\Users\ditvu\Desktop\New folder\LearnASP.Net8.0\Book.DataAccess\bin\Debug\net8.0\Book.Models.dll
+C:\Users\ditvu\Desktop\New folder\LearnASP.Net8.0\Book.DataAccess\bin\Debug\net8.0\Book.Ultility.dll
+C:\Users\ditvu\Desktop\New folder\LearnASP.Net8.0\Book.DataAccess\bin\Debug\net8.0\Book.Models.pdb
+C:\Users\ditvu\Desktop\New folder\LearnASP.Net8.0\Book.DataAccess\bin\Debug\net8.0\Book.Ultility.pdb
+C:\Users\ditvu\Desktop\New folder\LearnASP.Net8.0\Book.DataAccess\obj\Debug\net8.0\Book.DataAccess.csproj.AssemblyReference.cache
+C:\Users\ditvu\Desktop\New folder\LearnASP.Net8.0\Book.DataAccess\obj\Debug\net8.0\Book.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ditvu\Desktop\New folder\LearnASP.Net8.0\Book.DataAccess\obj\Debug\net8.0\Book.DataAccess.AssemblyInfoInputs.cache
+C:\Users\ditvu\Desktop\New folder\LearnASP.Net8.0\Book.DataAccess\obj\Debug\net8.0\Book.DataAccess.AssemblyInfo.cs
+C:\Users\ditvu\Desktop\New folder\LearnASP.Net8.0\Book.DataAccess\obj\Debug\net8.0\Book.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\ditvu\Desktop\New folder\LearnASP.Net8.0\Book.DataAccess\obj\Debug\net8.0\Book.DataAccess.sourcelink.json
+C:\Users\ditvu\Desktop\New folder\LearnASP.Net8.0\Book.DataAccess\obj\Debug\net8.0\Book.DataAccess.csproj.CopyComplete
+C:\Users\ditvu\Desktop\New folder\LearnASP.Net8.0\Book.DataAccess\obj\Debug\net8.0\Book.DataAccess.dll
+C:\Users\ditvu\Desktop\New folder\LearnASP.Net8.0\Book.DataAccess\obj\Debug\net8.0\refint\Book.DataAccess.dll
+C:\Users\ditvu\Desktop\New folder\LearnASP.Net8.0\Book.DataAccess\obj\Debug\net8.0\Book.DataAccess.pdb
+C:\Users\ditvu\Desktop\New folder\LearnASP.Net8.0\Book.DataAccess\obj\Debug\net8.0\Book.DataAccess.genruntimeconfig.cache
+C:\Users\ditvu\Desktop\New folder\LearnASP.Net8.0\Book.DataAccess\obj\Debug\net8.0\ref\Book.DataAccess.dll
