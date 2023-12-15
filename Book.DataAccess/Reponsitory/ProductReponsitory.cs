@@ -15,7 +15,25 @@ namespace Book.DataAccess.Reponsitory
 
         public void Update(Product obj)
         {
-            _db.Products.Update(obj);
+            var objFromDb = _db.Products.FirstOrDefault(u => u.Id == obj.Id);
+
+            if(objFromDb != null)
+            {
+                objFromDb.Title = obj.Title;
+                objFromDb.ISBN = obj.ISBN;
+                objFromDb.ListPrice = obj.ListPrice;
+                objFromDb.Price = obj.Price;
+                objFromDb.Price50 = obj.Price50;
+                objFromDb.Price100 = obj.Price100;
+                objFromDb.Author = obj.Author;
+                objFromDb.CategoryId = obj.CategoryId;
+                objFromDb.Description = obj.Description;
+                if(obj.ImageUrl != null)
+                {
+                    objFromDb.ImageUrl = obj.ImageUrl;
+                }
+
+            }
         }
     }
 }

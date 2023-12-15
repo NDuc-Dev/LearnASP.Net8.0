@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Book.DataAccess.Data;
+using Book.DataAccess.Reponsitory;
 using Book.DataAccess.Reponsitory.IReponsitory;
 using Book.Models;
 using Book.Models.ViewModels;
@@ -27,8 +28,7 @@ namespace BookWeb.Areas.Admin.Controllers
         // GET: Product
         public IActionResult Index()
         {
-
-            var objProductlist = _unitOfWork.Product.GetAll().ToList();
+            List<Product> objProductlist = _unitOfWork.Product.GetAll(includeProperties: "Category").ToList();
             return View(objProductlist);
         }
 
@@ -68,7 +68,8 @@ namespace BookWeb.Areas.Admin.Controllers
 
                     if (!string.IsNullOrEmpty(productVM.Product.ImageUrl))
                     {
-                        var oldImagePath = Path.Combine(wwwRootPath, productVM.Product.ToString().TrimStart('\\'));
+                        var oldImagePath =
+                            Path.Combine(wwwRootPath, productVM.Product.ImageUrl.TrimStart('\\'));
 
                         if (System.IO.File.Exists(oldImagePath))
                         {
@@ -81,10 +82,10 @@ namespace BookWeb.Areas.Admin.Controllers
                         file.CopyTo(fileStream);
                     }
 
-                    productVM.Product.ImageUrl = @"\images\product\" +  fileName; 
+                    productVM.Product.ImageUrl = @"\images\product\" + fileName;
                 }
 
-                if(productVM.Product.Id == 0)
+                if (productVM.Product.Id == 0)
                 {
                     _unitOfWork.Product.Add(productVM.Product);
                 }
@@ -92,7 +93,6 @@ namespace BookWeb.Areas.Admin.Controllers
                 {
                     _unitOfWork.Product.Update(productVM.Product);
                 }
-                _unitOfWork.Product.Add(productVM.Product);
                 _unitOfWork.Save();
                 TempData["success"] = "Product create successfully";
                 return RedirectToAction("Index");
@@ -136,5 +136,15 @@ namespace BookWeb.Areas.Admin.Controllers
             TempData["success"] = "Product deleted successfully";
             return RedirectToAction("Index");
         }
+        #region API CALLS
+        [HttpGet]
+        public IActionResult GetAll()
+        {
+            List<Product> objProductlist = _unitOfWork.Product.GetAll(includeProperties: "Category").ToList();
+            return Json(new { data = objProductlist });
+        }
+
+        #endregion
     }
+
 }
