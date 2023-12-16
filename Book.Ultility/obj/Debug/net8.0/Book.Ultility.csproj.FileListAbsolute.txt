@@ -34,3 +34,4 @@ C:\Users\ditvu\Desktop\New folder\LearnASP.Net8.0\Book.Ultility\obj\Debug\net8.0
 C:\Users\ditvu\Desktop\New folder\LearnASP.Net8.0\Book.Ultility\obj\Debug\net8.0\refint\Book.Ultility.dll
 C:\Users\ditvu\Desktop\New folder\LearnASP.Net8.0\Book.Ultility\obj\Debug\net8.0\Book.Ultility.pdb
 C:\Users\ditvu\Desktop\New folder\LearnASP.Net8.0\Book.Ultility\obj\Debug\net8.0\ref\Book.Ultility.dll
+C:\Users\ditvu\Desktop\LearnASP.Net8.0\Book.Ultility\obj\Debug\net8.0\Book.Ultility.csproj.AssemblyReference.cache

@@ -23,6 +23,11 @@
           "BookWeb.dll": {}
         }
       },
+      "1/1.0.0": {
+        "dependencies": {
+          "SampleDependency": "1.0.0"
+        }
+      },
       "Azure.Core/1.25.0": {
         "dependencies": {
           "Microsoft.Bcl.AsyncInterfaces": "7.0.0",
@@ -597,6 +602,7 @@
           }
         }
       },
+      "jQuery/2.1.1": {},
       "Microsoft.AspNetCore.Antiforgery/2.2.0": {
         "dependencies": {
           "Microsoft.AspNetCore.DataProtection": "2.2.0",
@@ -2184,6 +2190,11 @@
       "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
+      "SampleDependency/1.0.0": {
+        "dependencies": {
+          "jQuery": "2.1.1"
+        }
+      },
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.6": {
         "dependencies": {
           "SQLitePCLRaw.lib.e_sqlite3": "2.1.6",
@@ -3104,6 +3115,7 @@
       },
       "Book.DataAccess/1.0.0": {
         "dependencies": {
+          "1": "1.0.0",
           "Book.Models": "1.0.0",
           "Book.Ultility": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.0",
@@ -3116,6 +3128,7 @@
       },
       "Book.Models/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.0",
           "Microsoft.AspNetCore.Mvc": "2.2.0"
         },
         "runtime": {
@@ -3123,6 +3136,9 @@
         }
       },
       "Book.Ultility/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "8.0.0"
+        },
         "runtime": {
           "Book.Ultility.dll": {}
         }
@@ -3134,6 +3150,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "1/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dtIrz/ZhtMLGRkIIPNEKkDv/vTCokBO+MKWWr4EwV85ZLulaKWfXE0kV0yEhNQ7Q9AeE/2R0ZAN/ya682RiC+Q==",
+      "path": "1/1.0.0",
+      "hashPath": "1.1.0.0.nupkg.sha512"
     },
     "Azure.Core/1.25.0": {
       "type": "package",
@@ -3498,6 +3521,13 @@
       "sha512": "sha512-VIXB7HCUC34OoaGnO3HJVtSv2/wljPhjV7eKH4+TFPgQdJj2lvHNKY41Dtg0Bphu7X5UaXFR4zrYYyo+GNOjbA==",
       "path": "humanizer.core.zh-hant/2.14.1",
       "hashPath": "humanizer.core.zh-hant.2.14.1.nupkg.sha512"
+    },
+    "jQuery/2.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/cy0NGAGBx0W6XLqrnehQAKeJhfnZLDdPnBvlNLq/k4mraD1a7rbHBYzV5PYBaz9t5wh+VrGhPUbPztvnFAOrQ==",
+      "path": "jquery/2.1.1",
+      "hashPath": "jquery.2.1.1.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Antiforgery/2.2.0": {
       "type": "package",
@@ -4576,6 +4606,13 @@
       "sha512": "sha512-VB5cn/7OzUfzdnC8tqAIMQciVLiq2epm2NrAm1E9OjNRyG4lVhfR61SMcLizejzQP8R8Uf/0l5qOIbUEi+RdEg==",
       "path": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "hashPath": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512"
+    },
+    "SampleDependency/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rkrKnTI2KT/L+BaaB6/xZbDiqyQ702TxYp5adqgC/GYU7KBufnNArz/5KNetThpOeXmVEMg0VlFU+9/cKz0L4w==",
+      "path": "sampledependency/1.0.0",
+      "hashPath": "sampledependency.1.0.0.nupkg.sha512"
     },
     "SQLitePCLRaw.bundle_e_sqlite3/2.1.6": {
       "type": "package",

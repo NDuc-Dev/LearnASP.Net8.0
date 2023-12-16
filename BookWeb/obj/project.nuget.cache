@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Cel7TKqYAGUZhfBieEVh4IXgBZL5fQFeWrSIdNU0QYVnRakiYOJpNMv7Gqyv3D1BSpo/A712E92L5SybeAlSbg==",
+  "dgSpecHash": "27TxyxORI/WMrpLH6HrcWKoYIAiIr+9F/j+RWulpEmq2vRsk8be7M+9xUzslxjCEQ8NXO3G3/t3PM+wH2/509g==",
   "success": true,
   "projectFilePath": "C:\\Users\\ditvu\\Desktop\\LearnASP.Net8.0\\BookWeb\\BookWeb.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ditvu\\.nuget\\packages\\1\\1.0.0\\1.1.0.0.nupkg.sha512",
     "C:\\Users\\ditvu\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\ditvu\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\ditvu\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
@@ -56,6 +57,7 @@
     "C:\\Users\\ditvu\\.nuget\\packages\\humanizer.core.zh-cn\\2.14.1\\humanizer.core.zh-cn.2.14.1.nupkg.sha512",
     "C:\\Users\\ditvu\\.nuget\\packages\\humanizer.core.zh-hans\\2.14.1\\humanizer.core.zh-hans.2.14.1.nupkg.sha512",
     "C:\\Users\\ditvu\\.nuget\\packages\\humanizer.core.zh-hant\\2.14.1\\humanizer.core.zh-hant.2.14.1.nupkg.sha512",
+    "C:\\Users\\ditvu\\.nuget\\packages\\jquery\\2.1.1\\jquery.2.1.1.nupkg.sha512",
     "C:\\Users\\ditvu\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\ditvu\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\ditvu\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
@@ -210,6 +212,7 @@
     "C:\\Users\\ditvu\\.nuget\\packages\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\ditvu\\.nuget\\packages\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\ditvu\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\ditvu\\.nuget\\packages\\sampledependency\\1.0.0\\sampledependency.1.0.0.nupkg.sha512",
     "C:\\Users\\ditvu\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.6\\sqlitepclraw.bundle_e_sqlite3.2.1.6.nupkg.sha512",
     "C:\\Users\\ditvu\\.nuget\\packages\\sqlitepclraw.core\\2.1.6\\sqlitepclraw.core.2.1.6.nupkg.sha512",
     "C:\\Users\\ditvu\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.6\\sqlitepclraw.lib.e_sqlite3.2.1.6.nupkg.sha512",
