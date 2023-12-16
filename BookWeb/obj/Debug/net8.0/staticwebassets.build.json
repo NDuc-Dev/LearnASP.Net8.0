@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7GNjK6sGoHCZykzi67rHBYrKuroUhH1oqNwNE2P7daU=",
+  "Hash": "jRXk1Lb7gNacbCVwytyea/d5TpXsIYaJ28yz/eppP3g=",
   "Source": "BookWeb",
   "BasePath": "_content/BookWeb",
   "Mode": "Default",
@@ -167,25 +167,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\product\\f4104773-668c-4b14-89e8-19923c805238.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\ditvu\\Desktop\\LearnASP.Net8.0\\BookWeb\\wwwroot\\js\\product.js",
-      "SourceId": "BookWeb",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ditvu\\Desktop\\LearnASP.Net8.0\\BookWeb\\wwwroot\\",
-      "BasePath": "_content/BookWeb",
-      "RelativePath": "js/product.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\product.js"
     },
     {
       "Identity": "C:\\Users\\ditvu\\Desktop\\LearnASP.Net8.0\\BookWeb\\wwwroot\\js\\site.js",
