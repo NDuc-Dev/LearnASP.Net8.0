@@ -107,21 +107,6 @@ namespace BookWeb.Areas.Admin.Controllers
                 return View(productVM);
             }
         }
-        public IActionResult Delete(int? id)
-        {
-            if (id == null || id == 0)
-            {
-                return NotFound();
-            }
-            Product? productFromDb = _unitOfWork.Product.Get(u => u.Id == id);
-            // Product? ProductFromDb1 = _unitOfWork.Categories.FirstOrDefault(u=>u.Id == id);
-            // Product? ProductFromDb2 = _unitOfWork.Categories.Where(u=>u.Id==id).FirstOrDefault();
-            if (productFromDb == null)
-            {
-                return NotFound();
-            }
-            return View(productFromDb);
-        }
         [HttpPost, ActionName("Delete")]
         // không thể sử dụng chung tên và biến giống nhau cho hai thuộc tính GET và POST, vì vậy thay đổi tên của thuộc tính POST và chỉ định rằng Action name là tên của thuộc tính cần có như vậy sẽ không ảnh hưởng đến code
         public IActionResult DeletePOST(int? id)
@@ -136,12 +121,38 @@ namespace BookWeb.Areas.Admin.Controllers
             TempData["success"] = "Product deleted successfully";
             return RedirectToAction("Index");
         }
+
+
         #region API CALLS
         [HttpGet]
         public IActionResult GetAll()
         {
             List<Product> objProductlist = _unitOfWork.Product.GetAll(includeProperties: "Category").ToList();
             return Json(new { data = objProductlist });
+        }
+
+        [HttpDelete]
+        public IActionResult Delete(int? id)
+        {
+            var productToBeDeleted = _unitOfWork.Product.Get(u => u.Id == id);
+            if (productToBeDeleted == null)
+            {
+                return Json(new { success = false, message = "Error while Deleting" });
+            }
+
+            var oldImagePath =
+                Path.Combine(_webHostEnvironment.WebRootPath,
+                productToBeDeleted.ImageUrl.TrimStart('\\'));
+
+            if (System.IO.File.Exists(oldImagePath))
+            {
+                System.IO.File.Delete(oldImagePath);
+            }
+
+            _unitOfWork.Product.Remove(productToBeDeleted);
+            _unitOfWork.Save();
+
+            return Json(new { succes = true, message = "Delete successful" }); 
         }
 
         #endregion

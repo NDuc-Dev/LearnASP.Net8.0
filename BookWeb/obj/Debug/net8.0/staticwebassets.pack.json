@@ -17,8 +17,20 @@
       "PackagePath": "staticwebassets\\images\\product\\194f04ec-53ee-40e9-ad4a-b8fda3683e56.png"
     },
     {
+      "Id": "C:\\Users\\ditvu\\Desktop\\LearnASP.Net8.0\\BookWeb\\wwwroot\\images\\product\\4fea32db-d886-4500-bb23-d682e9f6a1dc.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\4fea32db-d886-4500-bb23-d682e9f6a1dc.jpg"
+    },
+    {
       "Id": "C:\\Users\\ditvu\\Desktop\\LearnASP.Net8.0\\BookWeb\\wwwroot\\images\\product\\a8decca8-1ce3-41b2-bbce-facb772ce3d2.jpg",
       "PackagePath": "staticwebassets\\images\\product\\a8decca8-1ce3-41b2-bbce-facb772ce3d2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ditvu\\Desktop\\LearnASP.Net8.0\\BookWeb\\wwwroot\\images\\product\\c7e3dec0-6927-4df5-92cd-d90e0acced2e.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\c7e3dec0-6927-4df5-92cd-d90e0acced2e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ditvu\\Desktop\\LearnASP.Net8.0\\BookWeb\\wwwroot\\images\\product\\cfd260ad-a286-4377-8e3e-9a038004fba2.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\cfd260ad-a286-4377-8e3e-9a038004fba2.jpg"
     },
     {
       "Id": "C:\\Users\\ditvu\\Desktop\\LearnASP.Net8.0\\BookWeb\\wwwroot\\images\\product\\da13acf4-25de-4126-9d8e-5438a451e125.jpg",
@@ -27,6 +39,14 @@
     {
       "Id": "C:\\Users\\ditvu\\Desktop\\LearnASP.Net8.0\\BookWeb\\wwwroot\\images\\product\\f4104773-668c-4b14-89e8-19923c805238.jpg",
       "PackagePath": "staticwebassets\\images\\product\\f4104773-668c-4b14-89e8-19923c805238.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ditvu\\Desktop\\LearnASP.Net8.0\\BookWeb\\wwwroot\\images\\product\\fe47d893-6673-4947-8058-251359314343.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\fe47d893-6673-4947-8058-251359314343.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ditvu\\Desktop\\LearnASP.Net8.0\\BookWeb\\wwwroot\\js\\products.js",
+      "PackagePath": "staticwebassets\\js\\products.js"
     },
     {
       "Id": "C:\\Users\\ditvu\\Desktop\\LearnASP.Net8.0\\BookWeb\\wwwroot\\js\\site.js",
