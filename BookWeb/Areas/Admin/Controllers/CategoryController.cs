@@ -5,6 +5,8 @@ using System.Threading.Tasks;
 using Book.DataAccess.Data;
 using Book.DataAccess.Reponsitory.IReponsitory;
 using Book.Models;
+using Book.Ultility;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -13,6 +15,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Internal;
 namespace BookWeb.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = SD.Role_Admin)]
     public class CategoryController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
